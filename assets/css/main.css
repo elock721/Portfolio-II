@@ -105,19 +105,41 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
+	.icons {
+		display: flex;
+		align-items: center;
+		margin-left: 35%;
+		size: large;
+	}
+
+	.headshot {
+		height: 310px;
+		width: 210px;
+		border-radius: 3%;
+		display: flex;
+		align-items: center;
+		margin-left: 22%;
+	}
+
+	.aboutme {
+		font-family: 'Courier New', Courier, monospace;
+		font-size: large !important;
+		text-align: center;
+	}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #787878;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: navy !important;
 			text-decoration: none;
 		}
 
@@ -2465,8 +2487,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: navy;
+			color: navy !important;
 		}
 
 		input[type="submit"]:active,
@@ -2593,7 +2615,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: black;
-		background-image: url("images/bg.jpg");
+		background-image: url("images/code3.png");
 		background-repeat: no-repeat;								
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
